@@ -2,7 +2,8 @@
   border: none;
   border-radius: 2px;
   min-height: 0;
-  font-size: 12px;
+  font-size: 11px;
+  /*font-size: 16px;*/
   /*margin: 0.1em 0.1em 0.1em 0.1em;*/
   font-family: "Roboto", "Font Awesome 5 Free";
 }
