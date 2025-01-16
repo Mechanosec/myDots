@@ -98,6 +98,7 @@
   environment.systemPackages = with pkgs; [
     home-manager
 
+    openssl
     blueman
     pavucontrol
     unzip
