@@ -5,7 +5,9 @@
     username = "mechanosec";
     homeDirectory = "/home/mechanosec";
     stateVersion = "24.05"; # Please read the comment before changing.
-  #home.packages = [];
+    # packages = with pkgs; [
+    #   flameshot
+    # ];
   #home.file = {};
   #home.sessionVariables = {
   #  # EDITOR = "emacs";
@@ -32,6 +34,11 @@
       name = "Sans";
       size = 11;
     };
+  };
+
+  qt = {
+    enable = true;
+    # platformTheme.name = "gtk";
   };
 
   programs.git = {

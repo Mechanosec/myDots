@@ -94,12 +94,19 @@
   environment.systemPackages = with pkgs; [
     home-manager
 
+    blueman
+    pavucontrol
+    unzip
     brightnessctl
     btop
     libnotify
+    swappy
+    grim
+    slurp
+    unzip
 
     nemo
-    flameshot
+    #flameshot
     google-chrome
     firefox
     neovim
