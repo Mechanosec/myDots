@@ -63,6 +63,7 @@
 #power-profiles-daemon:hover {
   color: @yellow;
 }
+#network,
 #cpu,
 #memory,
 #battery,
