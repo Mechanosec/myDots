@@ -1,4 +1,6 @@
 {
   "notification-window-width": 350,
-  "control-center-width": 350
+  "control-center-width": 50,
+  "notification-window-height": 50,
+  "control-center-height": 50
 }

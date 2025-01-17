@@ -110,6 +110,7 @@
     slurp
     unzip
 
+    libreoffice
     obs-studio
     nemo
     #flameshot
