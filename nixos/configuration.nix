@@ -113,7 +113,7 @@
     libreoffice
     obs-studio
     nemo
-    #flameshot
+    flameshot
     google-chrome
     firefox
     neovim
