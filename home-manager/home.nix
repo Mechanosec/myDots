@@ -5,13 +5,13 @@
     username = "mechanosec";
     homeDirectory = "/home/mechanosec";
     stateVersion = "24.05"; # Please read the comment before changing.
+    sessionVariables = {
+      EDITOR = "neovim";
+    };
     # packages = with pkgs; [
     #   flameshot
     # ];
   #home.file = {};
-  #home.sessionVariables = {
-  #  # EDITOR = "emacs";
-  #};
   };
 
   home.pointerCursor = {
@@ -46,7 +46,6 @@
     userName = "O.Krasovskyi";
     userEmail = "mechanosec29@gmail.com";
   };
-
 
 
   # Let Home Manager install and manage itself.
