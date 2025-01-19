@@ -9,6 +9,7 @@
     lazygit
     lazydocker
     prisma-engines
+    go
 
     postman
     dbeaver-bin

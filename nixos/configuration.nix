@@ -85,12 +85,14 @@
   # services.xserver.libinput.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.mechanosec = {
-    shell = pkgs.zsh;
-    isNormalUser = true;
-    description = "Mechanosec";
-    extraGroups = [ "networkmanager" "wheel" "docker" ];
-    packages = with pkgs; [];
+  users = {
+    defaultUserShell = pkgs.zsh;
+    users.mechanosec = {
+      isNormalUser = true;
+      description = "Mechanosec";
+      extraGroups = [ "networkmanager" "wheel" "docker" ];
+      packages = with pkgs; [];
+    };
   };
 
   nixpkgs.config.allowUnfree = true;
