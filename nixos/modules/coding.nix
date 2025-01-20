@@ -6,6 +6,7 @@
     ripgrep
     gcc
     nodejs_20
+    nodePackages."@nestjs/cli"
     lazygit
     lazydocker
     prisma-engines
