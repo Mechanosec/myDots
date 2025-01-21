@@ -18,7 +18,7 @@
     hyprpaper
     wl-clipboard
     wofi
-    dunst
+    #dunst
     waybar
   ];
 }
