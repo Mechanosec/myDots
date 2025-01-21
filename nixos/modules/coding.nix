@@ -5,6 +5,7 @@
     fzf
     ripgrep
     gcc
+    bun
     nodejs_20
     nodePackages."@nestjs/cli"
     lazygit
@@ -12,6 +13,7 @@
     prisma-engines
     go
 
+    insomnia
     postman
     dbeaver-bin
     vscode
