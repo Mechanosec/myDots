@@ -13,7 +13,6 @@
     prisma-engines
     go
 
-    insomnia
     postman
     dbeaver-bin
     vscode
