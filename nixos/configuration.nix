@@ -14,6 +14,7 @@
       ./modules/fonts.nix
       ./modules/bluetooth.nix
       ./modules/sound.nix
+      ./modules/performance.nix
     ];
 
   # Bootloader.
@@ -118,6 +119,7 @@
     flameshot
     google-chrome
     firefox
+    _1password-cli
     neovim
     kitty
   ];

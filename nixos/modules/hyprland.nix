@@ -18,6 +18,7 @@
     hyprpaper
     wl-clipboard
     wofi
+    rofi-wayland
     #dunst
     waybar
   ];
