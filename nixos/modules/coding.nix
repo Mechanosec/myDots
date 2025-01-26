@@ -12,6 +12,7 @@
     lazydocker
     prisma-engines
     go
+    postgresql
 
     postman
     dbeaver-bin
