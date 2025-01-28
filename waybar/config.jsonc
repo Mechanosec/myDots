@@ -17,7 +17,7 @@
     "memory",
     // "temperature",
     "power-profiles-daemon",
-    "backlight",
+    // "backlight",
     "battery",
     "custom/notification",
   ],
@@ -143,7 +143,6 @@
     "separate-outputs": false,
   },
   "backlight": {
-    // "device": "acpi_video1",
     "format": "{percent}% {icon}",
     "format-icons": ["", "", "", "", "", "", "", "", ""],
   },

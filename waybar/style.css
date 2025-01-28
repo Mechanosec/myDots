@@ -64,12 +64,12 @@
 #power-profiles-daemon:hover {
   color: @yellow;
 }
+#custom-notification,
 #network,
 #cpu,
 #memory,
 #battery,
-#power-profiles-daemon,
-#custom-notification {
+#power-profiles-daemon {
   padding-right: 15px;
 }
 #battery:hover {

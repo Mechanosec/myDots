@@ -13,6 +13,7 @@
 
   environment.systemPackages = with pkgs; [
     swaynotificationcenter
+    swayosd
     hyprlock
     hypridle
     hyprpaper
