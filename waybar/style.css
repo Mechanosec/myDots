@@ -37,7 +37,8 @@
 #temperature,
 #backlight,
 #tray,
-#idle_inhibitor {
+#idle_inhibitor,
+#custom-notification {
   padding: 2px 10px;
   margin: 2px;
   color: @fg;
@@ -67,7 +68,8 @@
 #cpu,
 #memory,
 #battery,
-#power-profiles-daemon {
+#power-profiles-daemon,
+#custom-notification {
   padding-right: 15px;
 }
 #battery:hover {
