@@ -16,10 +16,11 @@
     "cpu",
     "memory",
     // "temperature",
-    "power-profiles-daemon",
+    // "power-profiles-daemon",
     // "backlight",
     "battery",
     "custom/notification",
+    "custom/pomodoro",
   ],
   "hyprland/workspaces": {
     "disable-scroll": true,
@@ -174,6 +175,12 @@
     "on-click": "swaync-client -t -sw",
     "on-click-right": "swaync-client -d -sw",
     "escape": true,
+  },
+  "custom/pomodoro": {
+    "format": "🍅 {output}",
+    "exec": "~/.config/myNix/waybar/plugins/pomodoro.sh",
+    "on-click": "~/.config/myNix/waybar/plugins/pomodoro.sh toggle",
+    "interval": 1,
   },
   // "idle_inhibitor": {
   //   "format": "{icon}",

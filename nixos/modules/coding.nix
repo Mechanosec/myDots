@@ -5,6 +5,8 @@
     fzf
     ripgrep
     gcc
+    sqlfluff
+    cargo
     bun
     nodejs_20
     nodePackages."@nestjs/cli"
@@ -20,6 +22,8 @@
     slack
     obsidian
     telegram-desktop
+
+    pomodoro
   ];
 
   virtualisation.docker.enable = true;
