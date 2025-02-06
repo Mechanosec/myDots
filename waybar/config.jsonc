@@ -137,7 +137,7 @@
     "min-length": 3,
     "format-en": "EN",
     "format-ru": "RU",
-    "format-ua": "UA",
+    "format-uk": "UA",
     "keyboard-name": "at-translated-set-2-keyboard",
   },
   "hyprland/window": {
