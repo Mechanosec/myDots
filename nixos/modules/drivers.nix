@@ -14,7 +14,7 @@
     ];
   };
 
-  #boot.kernelParams = [ "i915.force_probe=9a49" ];
+  boot.kernelParams = [ "i915.force_probe=9a49" ];
 
   xdg.portal = {
     enable = true;
