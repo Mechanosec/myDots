@@ -15,9 +15,9 @@
   };
 
   boot.kernelParams = [
-    "i915.enable_fbc=1"
-    "i915.enable_psr=1"
-    "i915.enable_guc=3"
+    "i915.enable_fbc=1"      # Включает компрессию кадра (экономит энергию)
+    "i915.enable_psr=1"      # Включает Panel Self Refresh (снижает нагрузку на GPU)
+    "i915.enable_guc=3"      # Включает микрокод GuC/HuC (оптимизирует работу GPU)
   ];
 
   xdg.portal = {
