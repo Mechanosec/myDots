@@ -49,6 +49,7 @@
     "format": "   {:%H:%M    %e %b}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "today-format": "<b>{}</b>",
+    "on-click": "gnome-calendar",
   },
   "cpu": {
     "format": "{usage}% ",
