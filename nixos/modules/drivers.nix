@@ -14,7 +14,11 @@
     ];
   };
 
-  boot.kernelParams = [ "i915.force_probe=9a49" ];
+  boot.kernelParams = [
+    "i915.enable_fbc=1"
+    "i915.enable_psr=1"
+    "i915.enable_guc=3"
+  ];
 
   xdg.portal = {
     enable = true;

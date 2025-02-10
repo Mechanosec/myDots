@@ -100,6 +100,7 @@
     unzip
     pciutils
     libva-utils
+    intel-gpu-tools
 
     libreoffice
     obs-studio
