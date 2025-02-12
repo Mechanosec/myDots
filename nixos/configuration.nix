@@ -7,6 +7,7 @@
 {
   imports =
     [ # Include the results of the hardware scan.
+      <nixos-hardware/lenovo/thinkpad/x1/9th-gen>
       ./hardware-configuration.nix
       ./modules/hyprland.nix
       ./modules/flatpak.nix
