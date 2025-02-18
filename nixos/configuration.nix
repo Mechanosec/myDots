@@ -103,6 +103,7 @@
     libva-utils
     intel-gpu-tools
 
+    transmission_4
     libreoffice
     obs-studio
     nemo

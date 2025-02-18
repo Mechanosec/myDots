@@ -22,8 +22,6 @@
     slack
     obsidian
     telegram-desktop
-
-    pomodoro
   ];
 
   virtualisation.docker.enable = true;
